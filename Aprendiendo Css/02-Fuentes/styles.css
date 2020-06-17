@@ -1,0 +1,62 @@
+@font-face {
+    font-family: MetalMania-Regular;
+    src: url(Fonts/MetalMania-Regular.ttf);
+}
+/*Importar fuente*/
+h1{
+    font-family: 'MuseoModerno';
+    /*estilo de fuente de google fonts*/
+    font-style: italic;
+    /*Tipo cursiva*/
+    color: mediumpurple;
+    /*Color*/
+}
+h3{
+    font-family: sans-serif;
+    /*estilo de fuente*/
+    font-size: 25px;
+    /*tama;o de texto*/
+    font-weight: lighter;
+    /*Grosor de letra*/
+    font-style: oblique;
+    /*estilo*/
+    color: #9c2727;
+    /*Color*/
+}
+p{
+    
+    font-family: 'MetalMania-Regular';
+    /*estilo de fuente*/
+    font-weight: bold;
+    /*Grosor de letra*/
+    color: rgb(0, 255, 13);
+    /*color rgb*/
+
+}
+div{
+    
+    font-family: 'MetalMania-Regular';
+    /*estilo de fuente*/
+    font-weight: bold;
+    /*Grosor de letra*/
+    color: rgba(0, 255, 13, 0.5);
+    /*color rgba*/
+
+}
+
+/*Colores*/
+/*
+color: mediumpurple;
+*/
+/*Colores del Sistema*/
+/*
+ color: #9c2727;
+*/
+/*Colores RGB*/
+/*
+color: rgb(255,255,255);
+*/
+/*Colores RGBA*/
+/*
+color: rgba(0, 255, 13, 0.137);
+*/

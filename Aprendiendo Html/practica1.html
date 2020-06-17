@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Descripciones</title>
+    </head>
+    <body>
+        <h1>Texto</h1><!--titulo grande-->
+        <p>
+            <em><!--texto en cursiva-->
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nesciunt quaerat
+            </em>
+            
+        </p>
+        <p>
+            <strong><!--texto en negritas-->
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fugit dicta ipsam 
+            </strong>
+        </p>
+        <p>
+            <em><!--texto en cursiva-->
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fugit dicta ipsam 
+            </em>
+            <i><!--texto en cursiva-->
+                quaerat blanditiis fugiat saepe nostrum, ut eligendi nam hic, velit assumenda rerum 
+            </i>    
+        </p>
+        <p>
+            <span class="datos"><!--no tiene cambio pero se le puede poner una clase ejemplo -->
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fugit dicta ipsam 
+            </span>
+        </p>
+        <p>
+            <blockquote><!--pequeña sangria -->
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fugit dicta ipsam 
+            </blockquote>
+        </p>
+        <hr>
+        <h2>Listas</h2>
+        <ul>
+            <li>Manzana</li>
+            <ul>
+                <li>Rojas</li>
+                <li>Verdes</li>
+            </ul>
+            <li>Pera</li>
+            <li>Naranja</li>
+        </ul>
+        <hr>
+        <h2>Imagenes</h2>
+        <img src="Img/imagen1.jpg" alt="Imagen de una nave" title="foto de una nave" width="250px" height="255px"/>
+        <!--
+            alt 
+            etiqueta que funciona como alternativa si no carga la imagen
+            title
+            titulo de la imagen
+            width
+            tamaño de anchura
+            height
+            tamaño de anchura
+        -->
+        <hr>
+        <h2>Tablas</h2>
+        <table border="2"><!--tabla y borde de 2--> 
+            <tr><!--filas-->
+                <th colspan="2">Nombre Completo</th><!--columnas y expandimos a 2-->
+                
+                <th>Pais</th>
+            </tr>
+            <tr><!--filas-->
+                <td>Martin</td><!--columnas-->
+                <td>Venegas</td>
+                <td>Mexico</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>formulario</h2>
+        <form>
+            <p>
+                <label for="nombre">Nombre</label><p>
+                <!--etiqueta nombre se le agrega un for para decir de donde es-->
+                <input type="text" name="nombre" placeholder="Este texto se muestra"/>
+                <!--name indicacion de usuario--></p>
+            </p>
+            <p>
+            <label for="descripcion">Descripcion</label><p>
+            <textarea name="descripcion"></textarea></p>
+            </p>
+            <p>
+                <input type="radio" name="genero" value="Hombre">hombre<br>
+                <input type="radio" name="genero" value="Mujer">Mujer<br>
+                <input type="radio" name="genero" value="nose">No lo se <br>
+                <!--boton de seleccion de dato-->
+            </p>
+            <p>
+                <select name="genero">
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                    <option value="Nolose">No lose</option>
+                </select>
+            </p>
+        </form>
+        <hr>
+    </body>
+</html>

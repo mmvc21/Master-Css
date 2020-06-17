@@ -1,0 +1,119 @@
+/*
+############  Selectores  ############
+*/
+/*Selector Universal*/
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*Tipo de fuente*/
+    margin: 0px;
+    /*Margenes*/
+    padding: 0px;
+    /*Margen en un elemento*/
+}
+/*Selector de etiqueta*/
+h1{
+    background: red;
+    /*fondo con color*/
+    color: white;
+    /*color de texto*/
+    padding: 10px;
+    /*un margen de 10 px*/
+}
+a{
+    color: yellowgreen;
+    font-size: 18px;
+    text-decoration: none;
+}
+/*selector de etiqueta dentro de otra etiqueta*/
+footer a{
+    color: red;
+}
+
+/*Selector de id*/
+#descripcion{
+    border: 1px solid black;
+    padding: 15px;
+    /*margen del borde*/
+}
+/*el ultimo estilo en el mismo elemento se remplazara ejemplo
+*/
+#titulo{
+    background: blue;
+    border: 4px dashed white;
+}
+/*Selector de clase*/
+/*Las Clases son para muchos elementos y los id solo para un elemento en especifico*/
+.parrafo{
+    font-style: italic;
+    /*estilo de letra*/
+    text-decoration: underline;
+    /*decoracion de texto subrayado*/
+    font-weight: bold;
+}
+.parrafo2{
+    /*clase parrafo junto con parrafo 2 se le puede dar un estilo diferente*/
+    background-color: turquoise;
+    /*pintamos turquesa*/
+    color: white;
+    /*pintamos el texto en blanco*/
+    padding: 20px;
+    margin: 10px;
+}
+.parrafo3{
+    /*clase parrafo junto con parrafo 2 se le puede dar un estilo diferente*/
+    background-color:orange;
+    /*pintamos turquesa*/
+    color: black;
+    /*pintamos el texto en blanco*/
+}
+/*Selector de atributo*/
+#usuario form {
+    border: 5px solid blue;
+    /*Borde de 5 pixeles solido blue*/
+    margin-top: 15px;
+    /*margen en la parte de arriba*/
+    margin-bottom: 15px;
+    /*margen en la parte de abajo*/
+    padding: 20px;
+}
+#usuario form *{
+    display: block;
+}
+input[type="text"]{
+    margin-bottom: 15px;
+    /*margen en la parte de arriba*/
+    padding: 15px;
+    /*margen*/
+    width: 500px;
+    /*tamaño*/
+}
+input[type="submit"]{
+    background: green;
+    /*color verde*/
+    color: white;
+    /*color de texto*/
+    padding: 15px;
+    /*margen dentro del boton*/
+    font-size: 15px;
+    /*tamaño de texto*/
+    text-transform: uppercase;
+    /*Cambiar el texto en mayuscula*/
+    border: solid black;
+    /*borde de boton*/
+    cursor: pointer;
+    /*poner manita en el boton*/
+}
+/*Selector de hijo*/
+#menu > li >a{
+    font-size:18px;
+    color: red;
+    text-decoration: none;
+}
+/*Prioridad*/
+#saludo h1{
+    background: brown !important;
+    /*Prioridad importante*/
+}
+h1{
+    background: purple !important;
+}

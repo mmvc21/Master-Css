@@ -1,0 +1,29 @@
+body{
+    background-color: green;
+    /*color de todo el body verde*/
+    background-image: url(patron.jpg);
+    /*color de fondo*/
+    background-repeat: repeat;
+    /*no repetir*/
+    text-align: center;
+    /*centramos texto*/
+}
+#caja{
+    /*En el id caja*/
+    border: 5px solid black;
+    /*borde de 5 pixeles color negro solido*/
+    padding: 10px;
+    /*margen interior*/
+    color: white;
+    /*color de texto blanco*/
+    background-color: rgba(94,131,212);
+}
+h2{
+    
+    color: white;
+    /*color de texto*/
+    background-image: url(patron2.png);
+    /*colocamos imagen dentro de h2*/
+    border: 5px solid yellow;
+    /*borde de 5 pixeles color amarillo solido*/
+}
