@@ -27,3 +27,13 @@ h2{
     border: 5px solid yellow;
     /*borde de 5 pixeles color amarillo solido*/
 }
+p{  
+    text-align: justify;
+    /*alinear texto a justificado*/
+    text-indent: 50px;
+    /*posicion de texto como sangria*/
+    word-spacing: 10px;
+    /*espaciado entre letras*/
+    letter-spacing: 50px;
+    /*espaciado entre letras*/
+}

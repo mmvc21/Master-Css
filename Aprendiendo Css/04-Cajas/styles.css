@@ -1,0 +1,47 @@
+*{
+    /*afecta a todo el html*/
+    margin: 0px;
+    /*margen a 0*/
+    padding: 0px;
+    /*margen interior a 0*/
+}
+
+#caja1,
+#caja2{
+    background-color: #138D75;
+    /*Color de la caja*/
+    width: 250px;
+    /*tama;o de anchura*/
+    height: 250px;
+    /*tama;o de largo*/
+    border: 5px solid red;
+    /*borde de 5 pixeles color solido rojo*/
+    margin: 15px;
+    /*margenes */
+    margin-top: 30px;
+    /*margen superior*/
+    margin-bottom: 60px;
+    /*margen inferior*/
+    margin-left: 30px;
+    /*margen izquierdo*/
+    margin-right: 30px;
+    /*margen derecho*/
+    min-width: ;
+    /*ancho maximo*/
+    min-height: ;
+    /*largo maximo*/
+    padding: 20px;
+    /*margen interno*/
+}
+p{
+    font-weight: bold;
+    /*negritas*/
+    text-align: center;
+    /*alinear texto en el centro*/
+    font-size: 20px;
+    /*tama;o a 20 px*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*tipo de fuente*/
+    line-height: 230px;
+    /*alinear texto a lo largo*/
+}
