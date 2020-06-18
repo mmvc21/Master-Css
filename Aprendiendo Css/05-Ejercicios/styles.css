@@ -1,0 +1,138 @@
+*{
+    /*02-eliminar estilos preestablecidos*/
+    margin: 0px;
+    /*margen de 0px*/
+    padding:0px;
+    /*margen interion a 0px*/
+    text-decoration: none;
+    /*nada de decoracion*/
+}
+#general{
+    width: 1200px;
+    /*tama;o*/
+    margin: 0px auto;
+    /*centrar*/
+    border: 5px solid mediumseagreen;
+    /*color de borde*/
+}
+#header{
+    /*titulo*/
+    width: 100%;
+    /*tama;o 100 porciento*/
+    height: 100px;
+    /*largo*/
+    background: rgb(15,118,236);
+    /*fondo azul*/
+    color: white;
+    /*color de texto*/
+    text-align: center;
+    /*texto alineado centrado*/
+    line-height: 100px;
+}
+.clearfix{
+    /*limpiar flotados*/
+    float: none;
+    clear: both;
+}
+#menu{
+    background-color: #eeeeee;
+    
+}
+#menu ul li{
+    /*display: inline-block;*/
+    /*alinear ala derecha*/
+    display: block;
+    /*para que se comporte como bloque*/
+    float: left;
+    /*mover elementos ala derecha*/
+    
+    border: 1px solid rgb(132, 134, 126);
+    /*borde de 2 px color turquesa solido*/
+    
+}
+#menu ul li a{
+    /*de la clase menu solo afecta a de li dentro de ul*/
+    display: block;
+    /*para establecer un bloque*/
+    padding: 10px;
+    /*margen interion de 10px*/
+    color: rgb(15,118,236);
+}
+#menu ul li:hover{
+    /*al momento que el cursor pase enfrente*/
+    background: rgb(15,118,236);
+    /*colocamos a las listas color */
+    border: 2px solid rgb(15,118,236);
+    /*borde de 2 pixeles con color azul*/
+}
+#menu ul li a:hover{
+    /*al momento que el cursor pase enfrente a las etiquetas de referencia*/
+    display: block;
+    /*para establecer un bloque*/
+    color: white;
+    /*color de texto*/
+}
+#contenido{
+    width: 70%;
+    /*tama;o*/
+    border: 1px solid mediumspringgreen;
+    /*borde de 1 pixel con color*/
+    float: left;
+    /*recorrer ala derecha*/
+}
+#lateral{
+    width: 29%;
+    /*tama;o*/
+    border: 1px solid mediumspringgreen;
+    /*borde de 1 pixel con color*/
+    float: left;
+    /*recorrer ala derecha*/
+    text-align: center;
+    /*texto alineado*/
+}
+#contenido .caja{
+    /*id contendio de la clase caja*/
+    width:40%;
+    /*tama;o ancho*/
+    height: 250px;
+    /*tama;o de largo*/
+    color: white;
+    /*color de texto*/
+    background-color: red;
+    /*color de fondo*/
+    border: 5px solid blue;
+    /*borde de 5 pixeles color azul*/
+    float: left;
+    /*pasamos a fila*/
+    margin: 30px;
+    /*margen de 20 px*/
+}
+#contenido h1{
+    text-align: center;
+    /*texto alineado*/
+    border: 1px solid greenyellow;
+    /*borde de 1 pixel color amarilloverdoso*/
+    line-height: 40px;
+    /*alinear texto de largo*/
+    background-color: green;
+    /*fondo de color verde */
+    color: white;
+    /*color de texto blanco*/
+}
+footer{
+    width: 100%;
+    /*tama;o*/
+    height: 55px;
+    /*tama;o de largo*/
+    background: #eeeeee;
+    /*color fondo*/
+    color: #444;
+    /*color de texto*/
+    line-height: 55px;
+    /*texto alineado a lo largo*/
+    border-top: 1px solid #ccc;
+    /*borde 1 pixel solido */
+    text-align: center;
+    /*alinear texto centrado*/
+
+}
