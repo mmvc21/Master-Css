@@ -98,14 +98,23 @@
     /*tama;o de largo*/
     color: white;
     /*color de texto*/
-    background-color: red;
+    background-color: #ccc;
     /*color de fondo*/
-    border: 5px solid blue;
+    border: 5px solid gray;
     /*borde de 5 pixeles color azul*/
     float: left;
     /*pasamos a fila*/
     margin: 30px;
     /*margen de 20 px*/
+    line-height: 250px;
+    /*alinear texto de largo*/
+    text-align: center;
+    /*alinear texto*/
+    box-shadow: 5px 5px 15px gray;
+    /*sombra */
+    text-transform: uppercase;
+    /*transformar texto en mayusculas*/
+
 }
 #contenido h1{
     text-align: center;
@@ -116,8 +125,10 @@
     /*alinear texto de largo*/
     background-color: green;
     /*fondo de color verde */
-    color: white;
-    /*color de texto blanco*/
+    box-shadow: 5px 5px 10px gray;
+    /*sombra*/
+    
+    
 }
 footer{
     width: 100%;
@@ -134,5 +145,8 @@ footer{
     /*borde 1 pixel solido */
     text-align: center;
     /*alinear texto centrado*/
-
+}
+.sombra-interior{
+    box-shadow: 5px 5px 10px gray inset !important;
+    /*sombra interior*/
 }
