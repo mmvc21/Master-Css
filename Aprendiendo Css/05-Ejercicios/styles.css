@@ -114,6 +114,8 @@
     /*sombra */
     text-transform: uppercase;
     /*transformar texto en mayusculas*/
+    border-radius: 50px;
+    /*redondeamos esquinas */
 
 }
 #contenido h1{
@@ -149,4 +151,7 @@ footer{
 .sombra-interior{
     box-shadow: 5px 5px 10px gray inset !important;
     /*sombra interior*/
+    border-radius: 50px 10px 0px 50px;
+    /*bordes cambiandtes*/
+    border-radius: 999px;
 }
