@@ -89,9 +89,16 @@
     /*recorrer ala derecha*/
     text-align: center;
     /*texto alineado*/
+    overflow: hidden;
+    /*si sale de la caja no mostrarlo*/
+    overflow: scroll;
+    /*barra para mostrar*/
+
 }
 #contenido .caja{
     /*id contendio de la clase caja*/
+    /*position: absolute;*/
+    /*todo lo posiciona en un mismo lado*/
     width:40%;
     /*tama;o ancho*/
     height: 250px;
@@ -154,4 +161,58 @@ footer{
     border-radius: 50px 10px 0px 50px;
     /*bordes cambiandtes*/
     border-radius: 999px;
+}
+.libre{
+    position: absolute;
+    /*posicion inicial*/
+    top: 0%;
+    /*mover hacia abajo*/
+    left: 85%;
+    /*mover hacia la derecha*/
+    width: 50px;
+    /*tama;o*/
+    border: 1px solid black;
+    /*borde de 1px*/
+    background-color: red;
+    /*fondo*/
+    color: white;
+    /*color de texto*/
+}
+.libre2{
+    position: absolute;
+    /*posicion inicial*/
+    top: 2%;
+    /*mover hacia abajo*/
+    left: 85%;
+    /*mover hacia la derecha*/
+    width: 50px;
+    /*tama;o*/
+    border: 1px solid green;
+    /*borde de 1px*/
+    background-color: rgb(25, 0, 255);
+    /*fondo*/
+    color: white;
+    /*color de texto*/
+    z-index: -100;
+    /*posicion de capas como hojas encimadas*/
+}
+.fija{
+    position: fixed;
+    /*posicion inicial*/
+    top: 50%;
+    /*mover hacia abajo*/
+    left: 0%;
+    /*mover hacia la derecha*/
+    width: 100px;
+    /*tama;o*/
+    border: 1px solid green;
+    /*borde de 1px*/
+    background-color: rgb(25, 0, 255);
+    /*fondo*/
+    color: white;
+    /*color de texto*/
+    z-index: 100;
+    /*posicion de capas como hojas encimadas*/
+    font-size: 18px;
+    /*tama;o de texto*/
 }

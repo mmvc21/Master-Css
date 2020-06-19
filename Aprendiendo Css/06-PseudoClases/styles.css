@@ -1,0 +1,44 @@
+*{
+    font-family: fantasy;
+}
+ul li:first-child{
+    /*solo afecta al primer elemento de li*/
+    color: purple;
+}
+ul li:nth-child(2){
+    /*solo afecta al segundo elemento de li*/
+    color: orange;
+}
+ul li:last-child{
+    /*solo afecta al ultimo elemento de li*/
+    color: magenta;
+}
+#mi-enlace:link{
+    /*si no eh visitado el enlace*/
+    color: red;
+}
+#mi-enlace:visited{
+    /*si ya se visisto*/
+    color: orangered;
+}
+#mi-enlace:hover{
+    /*si se coloca encima*/
+    background-color: orangered;
+    /*color de fondo*/
+    border: orange;
+    /*borde*/
+    color: white;
+    /*color texto*/
+}
+#mi-enlace:{
+    color: teal;
+    /*color texto*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*tipo de fuente*/
+}
+input[type="text"]:focus{
+    /*al seleccionar el campo*/
+    border: 5px dashed blue;
+    /*poner un borde punteado*/
+
+}

@@ -1,0 +1,74 @@
+#botton{
+    display: block;
+    /*convertimos en bloque*/
+    padding: 20px;
+    /*margen interior*/
+    background-color: green;
+    /*pintamos el fondo de verde*/
+    width: 90px;
+    /*tama;o*/
+    text-align: center;
+    /*alineamos texto*/
+    font-family: 'Times New Roman', Times, serif;
+    /*tipo de fuente*/
+    font-weight: bold;
+    /*negrita*/
+    text-decoration: none;
+    /*ninguna decoracion de texto como sombras*/
+    border: 1px solid rgb(3, 73, 3);
+    /*borde*/
+    color: white;
+    /*color de texto*/
+    transition: all 500ms;
+    /*transicion para todos los campos de hover pero se puede poner ejemplo "color"*/
+
+}
+#botton:hover{
+    /*mostrar esto si se posiciona en el id botton*/
+    border-radius: 15px;
+    /*esquinas curveadas*/
+    background-color: greenyellow;
+    /*color de fondo*/
+    border: 1px solid rgb(3, 73, 3);
+    /*borde 1pixel color verde*/
+    color: green;
+    /*color de texto*/
+}
+#caja{
+    width: 250px;
+    height: 250px;
+    background: lightblue;
+    color: white;
+    border: 5px solid black;
+    text-align: center;
+    line-height: 200px;
+    animation-name: desplazamiento;
+    /*llamamos el keyframe*/
+    animation-duration: 10s;
+    /*duracion de la animacion*/
+    animation-iteration-count: infinite;
+    /*cuantas veces lo hara*/
+    animation-timing-function: linear;
+}
+@keyframes desplazamiento{
+    0%{
+        margin-left: 0px;
+        /*margen de inicio*/
+        transform: rotate(0deg);
+        /*rotacion*/
+    }
+    50%{
+        margin-left: 100%;
+        /*margen de medio*/
+        transform: rotate(360deg);
+        /*rotacion*/
+        border-radius: 999px;
+        /*bordes redondeados*/
+    }
+    100%{
+        margin-left: 0%;
+        /*margen de final*/
+        transform: rotate(0deg);
+        /*rotacion*/
+    }
+}
